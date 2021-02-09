@@ -1,23 +1,19 @@
 <template>
   <div id="app">
- <inputForm/>
- <mainGrid/>
- 
+    <randaring />
   </div>
 </template>
 
 <script>
-
-import inputForm from './components/inputForm'
 // import innerDiv from './components/innerDiv'
-import mainGrid from './components/mainGrid'
+import randaring from "./components/randaring";
+
 export default {
-  name: 'App',
+  name: "App",
   components: {
- inputForm,
- mainGrid
+    randaring
   }
-}
+};
 </script>
 
 <style>
